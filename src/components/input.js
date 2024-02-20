@@ -10,15 +10,7 @@ function Input(props) {
 
       <div >
         
-          <label>
-          {props.firstNameLabel}
           <input type="text" value={fname} name="firstname" onChange ={handleFnameChange} />
-          </label>
-          <label>
-          {props.LastNameLabel}
-          <input/>
-          </label>
-     
       </div>
     );
   }

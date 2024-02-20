@@ -6,7 +6,7 @@ import App from './App';
 function Label(props) {
 
     
-  const labels = ['First Name', 'Last Name' ]
+  const inputs = [{'First Name': fname, 'Last         Name':lname} ]
   
       return (
 
